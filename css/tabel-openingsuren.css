@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    color: #91AA9D;
+    text-transform: uppercase;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid #91AA9D;
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
+}
+
+td {
+    background-color: #548296;
+    color: white;
+    text-align: center;
+    width: 4em;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+caption {
+    caption-side: bottom;
+    color: #91AA9D;
+    padding: 1em;
+}
