@@ -27,10 +27,32 @@
       <br>
       <textarea name="boodschap" id="boodschap" placeholder="Uw boodschap voor ons" rows="5" cols="40"></textarea>
       </label>
-      
     </div>
 
+    <label for="onderwerp"><span>Onderwerp:</span></label>
+    <select name="onderwerp" id="onderwerp">
+      <option value="soll">Vacature aanvraag</option>
+      <option value="alg">Algemene vraag</option>
+      <option value="tech">Technische vraag</option>
+      <option value="soll">Vacature aanvraag</option>
+    </select>
 
+    <fieldset>
+      <legend>Hoe ben je op deze site terecht gekomen?</legend>
+      <input type="radio" id="a1" name="hoe" value="hoe-bedoel-je">
+      <label for="a1">Hoe bedoel je?</label>
+      <input type="radio" id="a2" name="hoe" value="geen-idee">
+      <label for="a2">geen idee</label>
+      <input type="radio" id="a3" name="hoe" value="welke-site">
+      <label for="a3">welke site?</label>
+    </fieldset>
+
+    <label for="score">Welke score geef je deze website?</label>
+    <input type="range" min="1" max="50" class="slider" id="score">
+
+    <input type="hidden" name="school" value="EHB">
+
+    <input type="submit" class="button" value="Verzenden">
   </form>
 
 
